@@ -7,7 +7,7 @@
 ## Current status
 
 - **Milestone:** M1 Foundation
-- **Next task:** M1-1
+- **Next task:** Open and merge the `feat/m1-foundation` pull request (M1-4 to M1-7), then add Cloudflare secrets (M1-8)
 - **Last updated:** 2026-11-10
 
 ---
@@ -21,7 +21,7 @@
 
 **Goal:** a clean repo where quality checks run from day one.
 
-- [ ] **M1-1** Create git repo and Vite app with bun, React 19, strict TypeScript and a folder structure (S)
+- [x] **M1-1** Create git repo and Vite app with bun, React 19, strict TypeScript and a folder structure (S) (2026-11-10)
   - Done when: `bun run dev` and `bun run build` work, `strict` is on, and the first conventional commit is made
 - [x] **M1-2** Set up Biome and Vitest (S) (2026-11-10)
   - Done when: lint and one passing unit test run from bun scripts
