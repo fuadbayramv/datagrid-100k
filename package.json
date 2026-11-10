@@ -16,8 +16,7 @@
     "typecheck": "bun --bun tsc --noEmit",
     "test": "bun --bun vitest run",
     "test:e2e": "bun --bun playwright test",
-    "size": "bun scripts/check-bundle.ts",
-    "deploy": "bun --bun wrangler deploy"
+    "size": "bun scripts/check-bundle.ts"
   },
   "dependencies": {
     "@base-ui/react": "^1.9.0",

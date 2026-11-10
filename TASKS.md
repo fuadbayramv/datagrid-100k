@@ -7,7 +7,7 @@
 ## Current status
 
 - **Milestone:** M1 Foundation
-- **Next task:** Open and merge the `feat/m1-foundation` pull request (M1-4 to M1-7), then add Cloudflare secrets (M1-8)
+- **Next task:** Finish M1-6 (open the `feat/m1-foundation` pull request, CI green, merge), then M2-1
 - **Last updated:** 2026-11-10
 
 ---
@@ -27,15 +27,15 @@
   - Done when: lint and one passing unit test run from bun scripts
 - [x] **M1-3** Set up Playwright with axe (S) (2026-11-10)
   - Done when: one e2e test with an axe check passes
-- [ ] **M1-4** Tailwind CSS, shadcn/ui and light/dark theme (S)
+- [x] **M1-4** Tailwind CSS, shadcn/ui and light/dark theme (S) (2026-11-10)
   - Done when: the theme toggle works, is keyboard-usable and respects the system preference
-- [ ] **M1-5** TanStack Router with typed routes for grid and performance pages (S)
+- [x] **M1-5** TanStack Router with typed routes for grid and performance pages (S) (2026-11-10)
   - Done when: both routes load and are code-split
 - [ ] **M1-6** GitHub Actions CI: typecheck, lint, unit, e2e (M)
   - Done when: CI is green on a pull request
-- [ ] **M1-7** Bundle-size budget in CI (S)
+- [x] **M1-7** Bundle-size budget in CI (S) (2026-11-10)
   - Done when: CI fails if main JS exceeds 150 kB gzipped
-- [ ] **M1-8** Add MIT licence and deploy the empty app to Cloudflare (S)
+- [x] **M1-8** Add MIT licence and deploy the empty app to Cloudflare (S) (2026-11-10)
   - Done when: a public URL serves the app and pushes to main deploy it
 
 ## M2: Data and baseline
@@ -167,4 +167,4 @@
 
 - Cut first if short on time: CSV import, Excel export, column reorder.
 - Performance targets in the brief are goals until measured.
-- Setup done by Claude on request, 2026-11-10: Vite + TanStack Router scaffold, shadcn preset `b1GKwKNAu`, Biome, Vitest, Playwright + axe, Zustand, TanStack Table + Virtual, CI workflow, bundle check, MIT licence, Cloudflare static config. Local checks pass. Not committed or pushed; CI and deploy have not run.
+- Setup done by Claude on request, 2026-11-10: Vite + TanStack Router scaffold, shadcn preset `b1GKwKNAu`, Biome, Vitest, Playwright + axe, Zustand, TanStack Table + Virtual, CI workflow, bundle check, MIT licence, Cloudflare static config. Local checks pass. CI passed on `main` at `92e7018`. Fuad deployed through Cloudflare directly, so no deploy secrets or CI deploy step are used.
