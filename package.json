@@ -39,6 +39,7 @@
   "devDependencies": {
     "@axe-core/playwright": "^4.14.0",
     "@biomejs/biome": "2.6.6",
+    "@cloudflare/vite-plugin": "^1.68.0",
     "@playwright/test": "^1.65.0",
     "@tanstack/devtools-vite": "0.8.6",
     "@tanstack/router-cli": "^1.132.0",
